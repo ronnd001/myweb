@@ -1,122 +1,61 @@
-<html lang="zh-TW">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>翻開廁所這一本書</title>
-  <style>
-    html { scroll-behavior: smooth; }
-    /* 任何帶 id 的元素，錨點捲動時預留 80px，避免被 sticky header 擋住 */
-    [id] { scroll-margin-top: 80px; }
+<div class="container">
+  <h1 id="intro">翻開廁所這一本書</h1>
 
-    body {
-      font-family: "標楷體","新細明體",sans-serif;
-      line-height: 1.8; margin: 0; padding: 0;
-      background:#fdfdfd; color:#222;
-    }
-    header {
-      background:#444; color:#fff; padding:10px 0;
-      position:sticky; top:0; z-index:1000;
-    }
-    nav { max-width:900px; margin:auto; display:flex; justify-content:center; gap:20px; }
-    nav a { color:#fff; text-decoration:none; font-weight:bold; }
-    nav a:hover { text-decoration:underline; }
-    .container { max-width:900px; margin:auto; padding:20px; }
-    h1,h2 { text-align:center; margin:30px 0 20px; font-weight:bold; }
-    h3 { margin:25px 0 10px; }
-    p { margin:15px 0; text-indent:2em; font-size:16px; }
-    ul { margin:15px 0; padding-left:2em; }
-    li { margin:10px 0; font-size:16px; }
-    img { max-width:100%; height:auto; margin:10px 0; border-radius:6px; }
-    .section { margin:40px 0; }
-    .img-left { float:left; margin:0 15px 10px 0; max-width:40%; }
-    .clear { clear:both; }
+  <p>莎士比亞曾說過「生活裏沒有書籍，就好像沒有陽光；智慧裏沒有書籍，就好像鳥兒沒有翅膀」，為鼓勵埔鹽學子透過閱讀，增廣視野，體驗在閱讀的世界中無限充滿想像的樂趣，本校特將本廁所改善工程結合校內「夢想起飛」圖書館的意象，加入飛翔的小王子，希望傳達以下的理念：</p>
 
-    /* 返回頂部 */
-    #backToTop {
-      display:none; position:fixed; bottom:30px; right:30px;
-      background:#444; color:#fff; padding:10px 15px; border-radius:6px;
-      cursor:pointer; font-size:14px; box-shadow:0 2px 6px rgba(0,0,0,.3);
-    }
-    #backToTop:hover { background:#666; }
+  <ul>
+    <li>透過閱讀，可以讓人的視野更寬廣、世界更具樂趣；</li>
+    <li>散發光芒的書本，引申透過閱讀，可以讓生命散發光彩；</li>
+    <li>背景的浩瀚星空，讓孩子們在閱讀的世界裡，可以透過想像遨遊宇宙。</li>
+    <li>期盼埔鹽學子，多多親近書本，永遠記得「閱讀將為生命帶來無窮力量」的道理。</li>
+  </ul>
 
-    /* footer */
-    footer { background:#444; color:#fff; text-align:center; padding:15px 0; margin-top:40px; font-size:14px; }
-  </style>
-</head>
-<body>
+  <p>「小王子」書中言道：「真正重要的東西是眼睛看不到的，需要用心去感受。」透過改造後的廁所，結合改建後的圖書館氛圍，引領孩子徜徉在閱讀的書海裡，感受知識的浩瀚，儲備人生飛翔能量，希望埔鹽的孩子的未來就如二樓廁所的主題「掀開色彩的寶盒」一樣，打開後是色彩繽紛、亮麗精彩的人生旅途。</p>
 
-  <!-- 導覽列 -->
-  <header>
-    <nav>
-      <a href="#intro">介紹</a>
-      <a href="#part1">彩繪牆</a>
-      <a href="#part2">書型牆</a>
-      <a href="#part3">洗手台</a>
-      <a href="#part4">色調氛圍</a>
-      <a href="#part5">友善尊重</a>
-      <a href="#thanks">謝誌</a>
-    </nav>
-  </header>
+  <h2>廁所這一本書重點摘要</h2>
 
-  <div class="container">
-    <h1 id="intro">翻開廁所這一本書</h1>
-
-    <p>莎士比亞曾說過「生活裏沒有書籍，就好像沒有陽光；智慧裏沒有書籍，就好像鳥兒沒有翅膀」……</p>
-
-    <h2>廁所這一本書重點摘要</h2>
-
-    <div id="part1" class="section">
-      <h3>〈一〉 主體彩繪牆</h3>
-      <img src="index_files/image001.jpg" class="img-left" alt="主體彩繪牆">
-      <p>本牆體是廁所與新裝修圖書館相鄰的地方，透過這幅畫與圖書館的閱讀元素相乘，改變大眾對廁所的既定印象……</p>
-      <div class="clear"></div>
-    </div>
-
-    <div id="part2" class="section">
-      <h3>〈二〉 書型牆體及書架</h3>
-      <img src="index_files/image002.jpg" class="img-left" alt="書型牆體及書架">
-      <p>一本巨型的書本立在廁所與圖書館的走道上……</p>
-      <div class="clear"></div>
-    </div>
-
-    <div id="part3" class="section">
-      <h3>〈三〉 自然風格洗手台</h3>
-      <img src="index_files/image003.jpg" class="img-left" alt="自然風格洗手台">
-      <p>洗手台採不規則的圓弧造型，讓洗手這件事也帶有童趣……</p>
-      <div class="clear"></div>
-    </div>
-
-    <div id="part4" class="section">
-      <h3>〈四〉 大自然的色調與氛圍</h3>
-      <img src="index_files/image004.jpg" class="img-left" alt="大自然的色調">
-      <p>一樓沈靜的咖啡色調，配上橙色的污水管……</p>
-      <img src="index_files/image005.jpg" class="img-left" alt="掀開色彩的寶盒">
-      <p>二樓主題為「掀開色彩的寶盒」，利用彩虹與自然色彩營造繽紛氛圍……</p>
-      <div class="clear"></div>
-    </div>
-
-    <div id="part5" class="section">
-      <h3>〈五〉 友善與尊重</h3>
-      <img src="index_files/image006.jpg" class="img-left" alt="性別友善廁所">
-      <p>採性別友善廁所，將尊重落實於日常……</p>
-      <div class="clear"></div>
-    </div>
-
-    <h2 id="thanks">廁所這一本書謝誌</h2>
-    <p>本次工程，感謝教育部及本縣教育處的經費補助……</p>
+  <div id="part1" class="section">
+    <h3>〈一〉 主體彩繪牆</h3>
+    <img src="index_files/image001.jpg" class="img-left" alt="主體彩繪牆">
+    <p>本牆體是廁所與新裝修圖書館相鄰的地方，透過這幅畫與圖書館的閱讀元素相乘，改變大眾對廁所的既定印象。另融入藝術與人文領域課程，體驗不同筆觸及顏料素材的變化。</p>
+    <div class="clear"></div>
   </div>
 
-  <!-- 返回頂部 -->
-  <div id="backToTop">▲ 返回頂部</div>
+  <div id="part2" class="section">
+    <h3>〈二〉 書型牆體及書架</h3>
+    <img src="index_files/image002.jpg" class="img-left" alt="書型牆體及書架">
+    <p>一本巨型的書本立在廁所與圖書館的走道上，除了避免孩子奔跑，提高安全系數外，最重要的是讓閱讀的元素無所不在。小孩下課時常是呼朋引伴，除了上廁所外，在等待友伴的同時，也能坐在這裡，細細品嘗小王子書裡的深意。</p>
+    <p>「埔鹽」Logo 在孩子的日常裡常出現，所以我們也將擺在這裡，讓孩子領略中國文字的美好。</p>
+    <div class="clear"></div>
+  </div>
 
-  <footer>© 2025 埔鹽國小 | 本網站為校園改善工程介紹</footer>
+  <div id="part3" class="section">
+    <h3>〈三〉 自然風格洗手台</h3>
+    <img src="index_files/image003.jpg" class="img-left" alt="自然風格洗手台">
+    <p>洗手台採不規則的圓弧造型，讓洗手這件事也帶有童趣，而且本廁所與遊戲場相鄰，故洗手台也延伸到外面，讓在遊戲場的孩子方便使用。</p>
+    <p>洗手台透過咖啡色系的馬賽克拼貼，與外庭的黑板樹及綠地相呼應，營造悠閒舒適的閑適空間。</p>
+    <div class="clear"></div>
+  </div>
 
-  <script>
-    const btn = document.getElementById('backToTop');
-    window.addEventListener('scroll', () => {
-      btn.style.display = (document.documentElement.scrollTop > 200) ? 'block' : 'none';
-    });
-    btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-  </script>
-</body>
-</html>
+  <div id="part4" class="section">
+    <h3>〈四〉 大自然的色調與氛圍</h3>
+    <img src="index_files/image004.jpg" class="img-left" alt="大自然的色調">
+    <p>一樓沈靜的咖啡色調，配上橙色的污水管，讓明管也帶有美的基調。</p>
+    <img src="index_files/image005.jpg" class="img-left" alt="掀開色彩的寶盒">
+    <p>掀開色彩的寶盒是二樓的主題，利用彩虹、雲彩及綠色系的馬賽克等自然大地色彩，營造繽紛的氛圍，讓孩子感受正向的能量。</p>
+    <p>為了通風及採光，大量開窗，一樓於後面開落地窗，讓視線延伸至後方空間，延展廁所的空間感。</p>
+    <p>二樓捨棄傳統開窗，利用木質格柵與周邊環境互動，除了增加通風及採光外，更營造悠靜的人文氣息，在活潑的色調裡，加入沈穩的元素。</p>
+    <div class="clear"></div>
+  </div>
+
+  <div id="part5" class="section">
+    <h3>〈五〉 友善與尊重</h3>
+    <img src="index_files/image006.jpg" class="img-left" alt="性別友善廁所">
+    <p>本廁所採性別友善廁所，將性別教育的理念落實在生活中，尊重每一個人，不管是女生、男生，不論是大人、小孩，只有尊重兩字而已。</p>
+    <p>本廁所主要使用者為低年級學生且臨近遊戲場，因此在洗手台設計時將高度降低，除了配合「小人」使用方便性，另外也提醒大人們，有時彎下腰來，用孩子的視野來看看這個世界，原來世界也有不一樣的美麗。</p>
+    <div class="clear"></div>
+  </div>
+
+  <h2 id="thanks">廁所這一本書謝誌</h2>
+  <p>本次工程，感謝教育部及本縣教育處的經費補助，更感謝許多幕後夥伴們的共同努力——感謝吳惠娟建築師的規劃設計、感謝張德修董事長帶領德安營造團隊的用心施工、感謝莊國賓老師的壁畫設計與彩繪、感謝本校家長會的大力支持，感謝本校師生的同心協力。</p>
+</div>
